@@ -11,39 +11,40 @@
     <h1>Rellena tu CV</h1>
     <form action="Ejercicio1.php" method="post">
         <label for="idNombre">Nombre</label>
-        <br>
+        <br/>
         <input type="text" name="Nombre" id="idNombre"/>
-        <br>
+        <br/>
         <label for="idApellidos">Apellidos</label>
-        <br>
+        <br/>
         <input type="text" name="Apellidos" id="idApellidos">
-        <br>
+        <br/>
         <label for="idContraseña">Contraseña</label>
-        <br>
-        <input type="text" name="Contraseña" id="idContraseña">
-        <br>
+        <br/>
+        <input type="password" name="Contraseña" id="idContraseña">
+        <br/>
         <label for="idDNI">DNI</label>
-        <br>
+        <br/>
         <input type="text" name="DNI" id="idDNI">
-        <br>
-        <p>Sexo</p>
+        <br/>
+        Sexo
+        <br/>
         <input type="radio" name="Hombre" id="idSexo">
         <label for="idSexo">Hombre</label>
-        <br>
+        <br/>
         <input type="radio" name="Mujer" id="idMujer">
         <label for="idMujer">Mujer</label>
-        <br>
-        <label for="idFoto">Incluir mi foto</label>
-        <input type="url" name="Foto" id="idFoto">
-        <input type="button" value="Elegir...">
-        <br>
-        <input type="checkbox" name="Suscripcion" id="idSuscripcion" checked="checked">
-        <label for="idSuscripcion">Suscripción al boletín de novedades</label>
-        <br>
+        <br/>
+        <p>
+            <label for="idFoto">Incluir mi foto</label>
+            <input type="url" name="Foto" id="idFoto">
+            <input type="button" value="Elegir...">
+        </p>
+        <p>
+            <input type="checkbox" name="Suscripcion" id="idSuscripcion" checked="checked">
+            <label for="idSuscripcion">Suscripción al boletín de novedades</label>
+        </p>
         <input type="button" value="Guardar cambios">
         <input type="button" value="Borrar los datos introducidos">
-
     </form>
-
 </body>
 </html>
