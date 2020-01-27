@@ -20,9 +20,59 @@
         </p>
         <p>
             <label for="idTelefono">Teléfono</label>
-            <input type="tel" name="telefono" id="idTelefono" value="(953)------">
+            <input type="tel" name="telefono" id="idTelefono" placeholder="(953)------" pattern="953[0-9]{6}" maxlength="9">
         </p>
-        
-    </form>
+        <p>
+            <label for="idEmail">Correo electrónico (gmail)</label>
+            <input type="email" name="email" id="idEmail" pattern="[A-Za-z]+@gmail.com" title="El email tiene que ser obligatoriamente gmail">
+        </p>
+        <p>
+            <label for="idWeb">Página web:</label>
+            <input type="url" name="web" id="idWeb">
+        </p>
+        <p>
+            <label for="idFecha_Envio">Fecha/hora de envío</label>
+            <input type="datetime-local" name="fechaEnvio" id="idFecha_Envio" min="2020-01-20 00:00">
+        </p>
+        <p>
+            <label for="idFecha_Resolucion">Fecha de resolución</label>
+            <input type="date" name="fechaResolucion" id="idFecha_Resolucion" min="2020-02-20">
+        </p>
+        <p>
+            <label>Número de archivos enviados</label>
+            <input type="number" name="numeroArchivos" id="idNumeroArchivos" min="0" max="5" value="0">
+        </p>
+        <p>
+            <label for="idColor">Elige un color:</label>
+            <input type="color" name="color" id="idColor" value="#1AFF00">
+        </p>
+        <p>
+            <label>Puntuacion (entre 0 y 10)</label>
+            <input type="range" name="puntuacion" id="idPuntuacion" value="7" min="0" max="10">
+        </p>
+            <fieldset>
+                <legend>Conocimiento de idiomas</legend>
+                <input type="checkbox" name="idioma" id="idIngles">
+                <label for="idIngles">Inglés</label>
+                <br/>
+                <input type="checkbox" name="idioma" id="idFrances">
+                <label for="idFrances">Francés</label>
+                <br/>
+                <input type="checkbox" name="idioma" id="idAleman">
+                <label for="idAleman">Alemán</label>
+            </fieldset>
+        <p>
+            <label>Nivel de Inglés</label>
+            <br/>
+            <input type="radio" name="nivel" id="idBajo" checked="checked">
+            <label for="idBajo">Bajo</label>
+            <br/>
+            <input type="radio" name="nivel" id="idMedio">
+            <label for="idMedio">Medio</label>
+            <br/>
+            <input type="radio" name="nivel" id="idAlto">
+            <label for="idAlto">Alto</label>
+        </p>
+        </form>
 </body>
 </html>
