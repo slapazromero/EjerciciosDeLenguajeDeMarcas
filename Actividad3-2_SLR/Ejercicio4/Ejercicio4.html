@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Sergio Lapaz Romero">
+    <title>Ejercicio4</title>
+</head>
+
+<body>
+    <form action="Ejercicio4.php" method="post">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="idNombre">Nombre</label>
+            <br/>
+            <input type="text" name="nombre" id="idNombre" maxlength="20" />
+            <br/>
+            <label for="idApellidos">Apellidos</label> 
+            <br/>
+            <input type="text" name="apellidos" id="idApellidos" maxlength="60" />
+            <br/>
+            <label for="idDNI">DNI</label> 
+            <br/>
+            <input type="text" name="dni" id="idDNI" size="10" pattern="[0-9]{8}[A-Za-z]" title="El DNI esta formado por 8 digitos y una letra" maxlength="9"/>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Datos de conexión</legend>
+            <label for="idUsuario">Nombre de usuario</label>
+            <br/>
+            <input type="text" name="usuario" id="idUsuario"  maxlength="20" />
+            <br/>
+            <label for="idContraseña">Contraseña</label>
+            <br/>
+            <input type="password" name="contraseña" id="idContraseña" minlength="8" maxlength="15" />
+            <br/>
+            <label for="idContraseña2">Repite la contraseña</label>
+            <br/>
+            <input type="password" name="contraseña2" id="idContraseña2" minlength="8" maxlength="15" />
+        </fieldset>
+    </form>
+</body>
+
+</html>

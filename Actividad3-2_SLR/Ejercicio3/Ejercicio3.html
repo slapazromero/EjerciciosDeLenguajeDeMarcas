@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Sergio Lapaz Romero">
+    <title>Ejercicio3</title>
+</head>
+
+<body>
+    <h3>Información sobre el producto</h3>
+
+    <form action="Ejercicio3.php" method="get">
+
+        <fieldset>
+            <legend>Datos básicos</legend>
+
+            <p>    
+                <label for="idNombre">Nombre</label> <br />
+                <input type="text" name="nombre" id="idNombre" size="50"/>
+            </p>
+
+            <p>
+                <label for="idDescripcion">Descripción</label> <br />
+                <textarea name="descripcion" id="idDescripcion" cols="40" rows="5"></textarea>
+            </p>
+
+            <p>
+                Foto <input type="file" name="foto" />
+            </p>
+
+            <p>
+            	<input name="contador" type="checkbox" value="contador"/> Añadir contador de visitas
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos económicos</legend>
+
+            <p>
+            	<label for="idPrecio">Precio</label>
+            	<input type="text" name="precio" id="idPrecio" size="5"/> &euro;
+            
+            	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            	<label for="idimpuestos">Impuestos</label>
+            	<select name="impuestos" id="idimpuestos">
+            	    <option value="4">4%</option>
+            	    <option value="7">7%</option>
+            	    <option value="16">16%</option>
+            	    <option value="25">25%</option>
+            	</select>
+            </p>
+
+            <p>
+                <label>Promoción</label>
+                <br/>
+                <input type="radio" name="promocion" value="ninguno" checked="checked" /> Ninguno
+                <br/>
+                <input type="radio" name="promocion" value="portes" /> Transporte gratuito
+                <br/>
+                <input type="radio" name="promocion" value="descuento" /> Descuento 5%
+            </p>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

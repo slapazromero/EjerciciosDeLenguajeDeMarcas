@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Sergio Lapaz Romero">
+    <title>Ejercicio5</title>
+</head>
+<body>
+        <form action="Ejercicio5.php" method="get">
+            <table border="1" style="border-collapse: collapse;">
+                <tr>
+                    <td colspan="2" style="text-align: center;">Por favor, rellene todos los <a href="Ejercicio5.php">datos</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="idNombre">Nombre</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nombre" id="idNombre">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="idApellidos">Apellidos</label>
+                    </td>
+                    <td>
+                        <input type="text" name="Apellidos" id="idApellidos">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="idDireccion">Dirección</label>
+                    </td>
+                    <td>
+                        <input type="text" name="direccion" id="idDireccion">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="idCP">Código Postal</label>
+                    </td>
+                    <td>
+                        <input type="text" name="CP" id="idCP" pattern="[0-9]{5}" maxlength="5" size="5">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Equipo favorito
+                    </td>
+                    <td>
+                        <input type="radio" name="equipo" id="idJaen" checked="checked">
+                        <label for="idJaen">Real Jaén</label>
+                        <input type="radio" name="equipo" id="idGranada">
+                        <label for="idGranada">Granada Club de Fútbol</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Música favorita
+                    </td>
+                    <td>
+                        <input type="checkbox" name="musica" id="idRock">
+                        <label for="idRock">Rock</label>
+                        <input type="checkbox" name="musica" id="idPop">
+                        <label for="idPop">Pop</label>
+                        <input type="checkbox" name="musica" id="idHeavy">
+                        <label for="idHeavy">Heavy</label>
+                        <input type="checkbox" name="musica" id="idTecno">
+                        <label for="idTecno">Tecno</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Elige un escritor
+                    </td>
+                    <td>
+                        <select name="escritor" id="idEscritor">
+                            <option value="cervantes">Cervantes</option>
+                            <option value="shakespeare">Shakespeare</option>
+                            <option value="lorca">Federico Garcia Lorca</option>
+                            <option value="austen">Jane Austen</option>
+                            <option value="becquer">Gustavo Adolfo Bécquer</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="idComentario">¿Algún comentario?</label>
+                    </td>
+                    <td>
+                        <textarea name="comentario" id="idComentario" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar consulta">
+                    </td>
+                    <td>
+                        <input type="reset" value="Borrar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+</body>
+</html>
