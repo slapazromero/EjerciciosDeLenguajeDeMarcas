@@ -64,7 +64,7 @@
                 <label style="margin: 1%;">Sexo</label>
                 <br />
                 <select name="tipoIdentificador" id="idTipoIdentificador" style="width: 30%;" required="required">
-                    <option value="seleccionar">Seleccionar tipo de identificador</option>
+                    <option value="">Seleccionar tipo de identificador</option>
                     <option value="nif">NIF</option>
                     <option value="dni">DNI</option>
                 </select>
@@ -166,7 +166,7 @@
                 <label for="idMunicipio" style="margin: 3%;">Municipio</label>
                 <br />
                 <select id="idPais" style="width: 30%;">
-                    <option value="Elegir" id="AF">Elegir opción</option>
+                    <option value="Elegir" id="00">Elegir opción</option>
                     <option value="Afganistán" id="AF">Afganistán</option>
                     <option value="Albania" id="AL">Albania</option>
                     <option value="Alemania" id="DE">Alemania</option>
@@ -280,7 +280,7 @@
                     <option value="Islas Marshall" id="MH">Islas Marshall</option>
                     <option value="Islas menores de Estados Unidos" id="UM">Islas menores de Estados Unidos</option>
                     <option value="Islas Palau" id="PW">Islas Palau</option>
-                    <option value="Islas Salomón" d="SB">Islas Salomón</option>
+                    <option value="Islas Salomón" id="SB">Islas Salomón</option>
                     <option value="Islas Tokelau" id="TK">Islas Tokelau</option>
                     <option value="Islas Turks y Caicos" id="TC">Islas Turks y Caicos</option>
                     <option value="Islas Vírgenes EE.UU." id="VI">Islas Vírgenes EE.UU.</option>
@@ -485,7 +485,7 @@
             <h2 id="dependencia">3️⃣ IDENTIFICACIÓN DE LA DEPENDENCIA OBJETO DE LA SUGERENCIA O RECLAMACIÓN</h2>
             <p>
                 <label for="idMateria">Materia</label>
-                <label for="idCosejeria" style="margin-left: 45%;">Consejeria/Organismo *</label>
+                <label for="idConsejeria" style="margin-left: 45%;">Consejeria/Organismo *</label>
                 <br/>
                 <select name="materia" id="idMateria" style="width: 45%;">
                     <option value="00">Seleccione materia</option>
@@ -494,7 +494,7 @@
                 </select>
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <select name="consejeria" id="idConsejeria" style="width: 45%;" required="required">
-                    <option value="00">seleccione consejeria</option>
+                    <option value="">seleccione consejeria</option>
                     <option value="01">Educacion</option>
                     <option value="02">Estado</option>
                 </select>
@@ -582,7 +582,7 @@
             <h2 id="texto">4️⃣ TEXTO DE LA SUGERENCIA O RECLAMACIÓN (*)</h2>
             <label for="idDescripcion">Descripción</label>
             <br/>
-            <textarea name="descripcion" id="idDescripcion" cols="85%" rows="10%" required="required"></textarea>
+            <textarea name="descripcion" id="idDescripcion" cols="85" rows="10" required="required"></textarea>
         </fieldset>
         <fieldset>
             <h2 id="fechaLugar">5️⃣ LUGAR Y FECHA</h2>
