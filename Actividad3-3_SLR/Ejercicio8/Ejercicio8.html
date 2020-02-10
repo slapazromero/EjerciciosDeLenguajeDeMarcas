@@ -9,71 +9,73 @@
     <title>Ejercicio8</title>
 </head>
 <body>
-    <fieldset>
-        <h1>Horario de 1º DAM. Curso 2019-2020</h1>
-        <table>
-            <tr>
-                <th></th>
-                <th>Lunes</th>
-                <th>Martes</th>
-                <th>Miércoles</th>
-                <th>Jueves</th>
-                <th>Viernes</th>
-            </tr>
-            <tr>
-                <td>8:15-9:15</td>
-                <td rowspan="2">Lenguaje de marcas</td>
-                <td rowspan="2">Programación</td>
-                <td rowspan="2">Sistemas informáticos</td>
-                <td>Entornos de desarrollo</td>
-                <td rowspan="2">Programación</td>
-            </tr>
-            <tr>
-                <td>9:15-10:15</td>
-                <td>FOL</td>
-            </tr>
-            <tr>
-                <td>10:15-11:15</td>
-                <td>Base de datos</td>
-                <td>Lenguaje de marcas</td>
-                <td>Programación</td>
-                <td>Programación</td>
-                <td>Entornos de desarrollo</td>
-            </tr>
-            <tr>
-                <td>11:15-11:45</td>
-                <td colspan="5">Recreo</td>
-            </tr>
-            <tr>
-                <td>11:45-12:45</td>
-                <td>Base de datos</td>
-                <td>Lenguaje de marcas</td>
-                <td>Programación</td>
-                <td>Programación</td>
-                <td>Entornos de desarrollo</td>
-            </tr>
-            <tr>
-                <td>12:45-13:45</td>
-                <td rowspan="2">FOL</td>
-                <td rowspan="2">Base de datos</td>
-                <td rowspan="2">Base de datos</td>
-                <td rowspan="2">Sistemas informáticos</td>
-                <td rowspan="2">Sistemas informáticos</td>
-            </tr>
-            <tr>
-                <td>13:45-14:45</td>
-            </tr>
-        </table>
-        <p>
-            <a href="https://www.iesvirgendelcarmen.com/ies/index.php">Enlace a la página del instituto</a>
-        </p>
-        <p>
-            <label for="idTelefono">Teléfono:</label>
-            <input type="tel" name="telefono" id="idTelefono" required="required">
-        </p>
-        <p>
-            <input type="submit" value="Enviar horario">
-        </p>
-    </fieldset>
+    <form action="Ejercicio.php" method="get">
+        <fieldset>
+            <h1>Horario de 1º DAM. Curso 2019-2020</h1>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+                <tr>
+                    <td>8:15-9:15</td>
+                    <td rowspan="2">Lenguaje de marcas</td>
+                    <td rowspan="2">Programación</td>
+                    <td rowspan="2">Sistemas informáticos</td>
+                    <td>Entornos de desarrollo</td>
+                    <td rowspan="2">Programación</td>
+                </tr>
+                <tr>
+                    <td>9:15-10:15</td>
+                    <td>FOL</td>
+                </tr>
+                <tr>
+                    <td>10:15-11:15</td>
+                    <td>Base de datos</td>
+                    <td>Lenguaje de marcas</td>
+                    <td>Programación</td>
+                    <td>Programación</td>
+                    <td>Entornos de desarrollo</td>
+                </tr>
+                <tr>
+                    <td>11:15-11:45</td>
+                    <td colspan="5">Recreo</td>
+                </tr>
+                <tr>
+                    <td>11:45-12:45</td>
+                    <td>Base de datos</td>
+                    <td>Lenguaje de marcas</td>
+                    <td>Programación</td>
+                    <td>Programación</td>
+                    <td>Entornos de desarrollo</td>
+                </tr>
+                <tr>
+                    <td>12:45-13:45</td>
+                    <td rowspan="2">FOL</td>
+                    <td rowspan="2">Base de datos</td>
+                    <td rowspan="2">Base de datos</td>
+                    <td rowspan="2">Sistemas informáticos</td>
+                    <td rowspan="2">Sistemas informáticos</td>
+                </tr>
+                <tr>
+                    <td>13:45-14:45</td>
+                </tr>
+            </table>
+            <p>
+                <a href="https://www.iesvirgendelcarmen.com/ies/index.php">Enlace a la página del instituto</a>
+            </p>
+            <p>
+                <label for="idTelefono">Teléfono:</label>
+                <input type="tel" name="telefono" id="idTelefono" required="required">
+            </p>
+            <p>
+                <input type="submit" value="Enviar horario">
+            </p>
+        </fieldset>
+    </form>
 </body>
 </html>
