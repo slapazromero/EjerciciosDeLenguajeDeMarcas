@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+}
+table{
+    width: 50%;
+    height: 50%;
+    vertical-align: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+caption{
+    font-size: large;
+    color: darkblue;
+}
+td>img {
+    width: 50%;
+}
+
+td.caracteristicas {
+    color: #ffffff;
+    background-color: #ff0000;
+}
+
+tr#capacidad>td.gb{
+    font-size: large;
+    text-align: center;
+    background-color: #808080;
+}
+
+#cuatroHoras{
+    padding-top: 50px;
+    padding: 50px;
+    background-color: #ffff00;
+}
+
+[rowspan="2"]{
+    background-color: #add8e6;
+}
+
+abbr{
+    background-color: #90ee90;
+}

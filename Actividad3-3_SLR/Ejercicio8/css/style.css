@@ -1,0 +1,47 @@
+tr>td:first-child{
+    background-color: #008000;
+}
+
+tr:nth-child(5n)>td:last-child{
+    background-color: #ffff00;
+    text-align: center;
+    font-weight: bold;
+}
+
+tr>td:first-child:hover{
+    font-size: 200%;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #ff0000;
+}
+
+a:link{
+    color: #008000;
+}
+
+tr>th::first-letter{
+    font-size: 200%;
+}
+
+input:required{
+    border: 1px solid #ff0000;
+}
+
+label::after{
+    content: " *";
+    color: #ff0000;
+}
+
+input[type="submit"]:hover{
+    color: #006400;
+    background-color: #90ee90;
+}

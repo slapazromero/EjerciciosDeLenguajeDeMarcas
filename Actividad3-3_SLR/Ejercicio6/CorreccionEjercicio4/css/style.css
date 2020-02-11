@@ -1,7 +1,6 @@
 table, tr, th, td{
     border: 1px solid #000;
     border-collapse: separate;
-    width: 5%;
 }
 
 tbody>tr:first-child>td:first-child{
