@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.parrafo1{
+    position: relative;
+    margin: 0 auto;
+    background-color: red;
+    text-align: justify;
+}
+
+.parrafo2{
+    position: relative;
+    margin: 0 auto;     
+    color: white;
+    background-color: blue;
+    text-align: justify;
+    bottom: 0.5em;
+}
