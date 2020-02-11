@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.cabecera{
+    background-color: blueviolet;
+    position: absolute;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    min-width: 500px;
+}
+
+.columna{
+    background-color: red;
+    position: absolute;
+    top: 51px;
+    left: 0px;
+    min-height: 700px;
+}

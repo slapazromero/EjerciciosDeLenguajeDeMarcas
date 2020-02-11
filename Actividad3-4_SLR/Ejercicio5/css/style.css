@@ -1,0 +1,15 @@
+.derecha{
+    position: fixed;
+    background-color: blue;
+    right: 0px;
+    height: 700px;
+    width: 50px;
+}
+
+.abajo{
+    position: fixed;
+    background-color: red;
+    bottom: 0px;
+    width: 500px;
+    height: 50px;
+}
