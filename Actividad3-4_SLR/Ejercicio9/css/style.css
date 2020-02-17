@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    margin: 10em 10em;
+}
+
+.columna1{
+    float: left;
+    background-color: red;
+    width: 200px;
+    height: 100%;
+}
+
+.columna2{
+    background-color: royalblue;
+
+}

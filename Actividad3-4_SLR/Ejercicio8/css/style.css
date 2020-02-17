@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    margin: 20em;
+    width: 250px;
+    float: left;
+}
+
+.parrafo4{
+    background-color: goldenrod;
+    clear: left;
+}
