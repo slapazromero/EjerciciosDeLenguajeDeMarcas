@@ -2,7 +2,8 @@
     position: fixed;
     background-color: blue;
     right: 0px;
-    height: 1000px;
+    top: 0px;
+    height: 100%;
     width: 50px;
 }
 
@@ -10,6 +11,7 @@
     position: fixed;
     background-color: red;
     bottom: 0px;
-    width: 1000px;
+    left: 0px;
+    width: 100%;
     height: 50px;
 }
