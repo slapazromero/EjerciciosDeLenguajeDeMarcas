@@ -13,6 +13,7 @@ header{
     color: aliceblue;
     margin-left: 10em;
     height: 3em;
+    position: sticky;
 }
 
 header li:first-child{
@@ -33,7 +34,7 @@ header li{
     border: 3px solid #000000;
     margin-top: 2.5em;
     margin-left: 5px;
-    position: static;
+    position: fi;
     width: 7em;
     height: 20em;
     text-align: center;
