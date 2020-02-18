@@ -3,17 +3,19 @@
 }
 
 div{
-    margin: 10em 10em;
+    margin: 5em;
 }
 
 .columna1{
     float: left;
     background-color: red;
     width: 200px;
-    height: 100%;
+    height: 100em;
 }
 
 .columna2{
+    float: left;
     background-color: royalblue;
-
+    width: 50%;
+    height: 100em;
 }
