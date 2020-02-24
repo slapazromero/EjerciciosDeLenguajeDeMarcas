@@ -15,6 +15,7 @@ header{
     height: 3em;
     position: sticky;
     top: 0em;
+    z-index: 100;
 }
 
 header li:first-child{
@@ -42,7 +43,7 @@ header li{
     border: 3px solid #000000;
     margin-top: 2.5em;
     margin-left: 5px;
-    position: fi;
+    position: fixed;
     width: 7em;
     height: 20em;
     text-align: center;
