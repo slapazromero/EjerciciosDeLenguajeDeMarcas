@@ -6,7 +6,6 @@
 div.contenedor{
     width: 75%;
     margin: 0 auto;
-    overflow: auto;
 }
 
 header{
@@ -23,11 +22,9 @@ header img{
     float: left;
     width: 10em;
 }
-div.menu ul, li, a{
-    float: left;
-}
 div.menu{
     position: sticky;
+    top: 0;
     padding: 0;
     background-color: brown;
     width: 100%;
@@ -43,7 +40,6 @@ a{
 }
 
 .menu li a{
-    float: left;
     padding: 10px;
     color: white;
 }
@@ -54,8 +50,9 @@ div.columna ul, li, a{
     float: left;
     background-color: greenyellow;
     width: 7em;
-    height: 27em;
-    position: fixed;
+    height: 39.4em;
+    position: sticky;
+    top: 2.5em;
 }
 
 .columna ul{
@@ -67,6 +64,8 @@ div#articulos div.articulo1{
     background-color: aquamarine;
     line-height: 1.3;
     column-count: 4;
+    margin-left: 7em;
+    padding: 1em;
 }
 
 div#articulos div.articulo2{   
@@ -74,6 +73,8 @@ div#articulos div.articulo2{
     margin: 10px;
     line-height: 1.3;
     column-count: 4;
+    margin-left: 7em;
+    padding: 1em;
 }
 
 div#articulos div.articulo3{   
@@ -81,6 +82,8 @@ div#articulos div.articulo3{
     margin: 10px;
     line-height: 1.3;
     column-count: 4;
+    margin-left: 7em;
+    padding: 1em;
 }
 
 footer{
