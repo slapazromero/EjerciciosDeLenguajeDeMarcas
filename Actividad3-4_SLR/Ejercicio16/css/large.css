@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+}
+
+h1{
+    font-family: sans-serif;
+    color: blue;
+    font-weight: 900;
+}
+
+header{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header nav{
+    display: flex;
+    padding: 2%;
+}
+
+.menu_item{
+    padding: 5%;
+}
+header nav div.icon{
+    display: none;
+}
+
+main{
+    background-color: lightblue;
+    padding: 1%;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+section.main_text{
+    width: 50%;
+    height: auto;
+    padding: 1%;
+}
+
+main h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+section .columnas{
+    column-count: 3;
+}
+
+section.images{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+img{
+    width: 33%;
+}
+
+section.novedades{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section.novedades h2{
+    width: 25%;
+}
+
+article{
+    padding: 1%;
+    width: 25%;
+}

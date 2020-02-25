@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+}
+
+h1{
+    font-family: sans-serif;
+    color: blue;
+    font-weight: 900;
+}
+
+header{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header nav{
+    float: left;
+    margin-top: 7.5%;
+}
+
+header nav .menu_item{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+header nav:hover {
+    display: block;
+}
+
+main{
+    background-color: lightblue;
+    padding: 1%;
+}
+
+main h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+section .columnas{
+    column-count: 3;
+}
+
+section.images{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img{
+    width: 25%;
+}
+
+.hidden{
+    display: none;
+}
