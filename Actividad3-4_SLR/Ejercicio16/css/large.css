@@ -65,6 +65,10 @@ img{
     width: 33%;
 }
 
+.hidden{
+    display: block;
+}
+
 section.novedades{
     display: flex;
     flex-direction: row;
